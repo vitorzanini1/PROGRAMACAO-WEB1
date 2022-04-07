@@ -1,0 +1,21 @@
+h1 {
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+fieldset {
+    background-color: rgb(97, 96, 96);
+    border-radius: 6px;
+}
+
+.valores {
+    color: white;
+}
+
+.inputUser{
+    border-radius: 8px;
+}
+

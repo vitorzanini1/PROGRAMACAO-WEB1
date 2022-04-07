@@ -1,0 +1,33 @@
+#botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    width: 23%;
+    height: 250px;
+    margin-top: 19%;
+    margin-left: 35%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.botao-papel, .botao-tesoura, .botao-pedra{
+    height: 73px;
+    width: 80px;
+    border-radius: 10px;
+}
+.botao-papel:hover, .botao-tesoura:hover, .botao-pedra:hover{
+    height: 74px;
+    width: 81px;
+    border-radius: 10px;
+}
+
+#corpo {
+    background-color: rgb(73, 71, 71);
+    background-image: url(https://cdn.create.vista.com/api/media/medium/32719961/stock-photo-the-manhattan-bridge-new-york?token=);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+

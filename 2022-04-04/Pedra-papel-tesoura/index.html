@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="CSS/style.css">
+<body id="corpo">
+        <div id="botao">
+                <button class="botao-pedra" name="pedra" id="button" onclick="verificar(1)">
+                    <img src="data:image/png;base64,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"/>
+                </button>
+
+                <button class="botao-papel" name="papel" id="button" onclick="verificar(2)">
+                    <img src="https://img.icons8.com/ios-filled/50/000000/paper.png"/>
+                </button>
+                
+                <button class="botao-tesoura" name="tesoura" id="button" onclick="verificar(3)">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" fill="currentColor" class="bi bi-scissors" viewBox="0 0 16 16">
+                        <path d="M3.5 3.5c-.614-.884-.074-1.962.858-2.5L8 7.226 11.642 1c.932.538 1.472 1.616.858 2.5L8.81 8.61l1.556 2.661a2.5 2.5 0 1 1-.794.637L8 9.73l-1.572 2.177a2.5 2.5 0 1 1-.794-.637L7.19 8.61 3.5 3.5zm2.5 10a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0zm7 0a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0z"/>
+                    </svg>
+                </button>
+        </div>
+</body>
+
+<script src="JS/codigo.js"></script>
+</html>
